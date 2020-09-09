@@ -1,0 +1,46 @@
+.body {
+    background-color: #efe6f2;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+   }
+
+li {
+    display: inline;
+    margin: 1em;
+    
+  }
+
+
+.Page-Heading {
+    
+    font-size: large;
+    width: 40%;
+    height: 30%;
+    margin-left: 100%;
+    margin-right: 10%;
+    margin-top: 5%;
+    display: inline-block;
+    float: right;
+    position: relative;
+    
+}
+
+.intro-text {
+    text-transform: none;
+}
+
+.image {
+    position: fixed;
+    max-width: 100%;
+    height: auto;
+}
+
+.h1 {
+    display: inline-block;
+}
