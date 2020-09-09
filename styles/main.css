@@ -8,6 +8,8 @@
 ul {
     list-style-type: none;
     float: right;
+    position: relative;
+    z-index: 1000;
    }
 
 li {
@@ -28,6 +30,7 @@ li {
     display: inline-block;
     float: right;
     position: relative;
+    z-index: 500;
     
 }
 
@@ -36,9 +39,10 @@ li {
 }
 
 .image {
-    position: fixed;
+    position: absolute;
     max-width: 100%;
     height: auto;
+    z-index: 1;
 }
 
 .h1 {
