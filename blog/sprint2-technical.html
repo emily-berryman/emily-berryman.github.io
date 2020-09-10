@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Sprint 2 - Technical</title>
+        <link href="/Users/emily/Dev-Academy/emily-berryman.github.io/styles/main.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet">
+    </head>
+
+    <body class="body">
+
+        <ul class="Blog1-bar">
+            <li> <a href="https://emily-berryman.github.io/">Home</a></li>
+            <li> About</li>
+        </ul>
+        <div class="body-styling">
+        <h2>The Difference Between Relative, Absolute & Fixed Positioning</h2>
+        <p> This title might sound complicated, so let’s start at the beginning…A webpage is made up of an HTML doc which describes the web page’s content and structure through code your web browser can understand. This might not be initially clear as when you view a webpage we don’t generally see any of this HTML code and often just see text and images instead, but if we right click on a web page and click ‘View Page Source’ we’re then able to see the raw HTML that makes up the page. Most webpages aren’t made up of just HTML however, if that was the case they’d all look pretty unappealing like this: </p>
+        <img class="b-1-image" src="/Users/emily/Dev-Academy/emily-berryman.github.io/images/no_css.png" alt="Site with no CSS">
+        <p>In addition to HTML web pages are made up of CSS (Cascading Style Sheets). Most HTML docs are linked to a CSS style sheet which describes how the HTML doc should be presented. The options we have to style a page with CSS are virtually endless but to give an idea basic styling includes using CSS to dictate the type of font used, the positioning of elements and the colours used throughout. </p>
+        <h3 class="dis">Now we’re clear on these fundamentals let’s move onto the topic of this blog post: the difference between relative, absolute & fixed positioning </h3>
+        <p>Let’s break this down. Firstly, web pages are made up of many HTML elements, detailed info on elements can be found here but for now all you need to know is that an element generally contains some kind of content (i.e text or image) and by default all elements are essentially little rectangles. As well as being a rectangle, by default all elements also display as either inline or block by default (more details on this below):  </p>
+        <img class="b-1-image" src="/Users/emily/Dev-Academy/emily-berryman.github.io/images/block-vs-inline.png" alt="block vs inline elements">
+        <p>Now we can picture each element that makes up a webpage as a little rectangle with a default behaviour, we need a way of moving these rectangles to a specific position on the page - one way of achieving this is with the CSS positioning property. There are six different types of positioning we can choose from:</p>
+        <img class="b-1-image" src="/Users/emily/Dev-Academy/emily-berryman.github.io/images/position-types.png" alt="css positions">
+        <p>Since this blog post is already half a novel long for everyone’s sake I’m just going to cover three types of positioning, which are…  </p>
+        <p>Yes, I’m sure you’ve already guessed them :D but for the sake of clarity I’ll continue:</p> 
+        <h3 class="dis">1) Relative, 2) Absolute, 3) Fixed</h3>
+        <p></p>
+        <p class="blog1">
+             1) Relative: When you apply position: relative; to an element this then allows you to manipulate the position of this element based on its current location without altering the existing layout of elements on the page. When we apply position: relative; we also have to specify specific position coordinates we’d like the element to follow (for instance, left: 20px, top: 50px etc), if we didn’t specify any coordinates then the element would remain exactly where it was originally in a position known as static. Here’s an example below: 
+        </p>
+        <img class="b-1-image" src="/Users/emily/Dev-Academy/emily-berryman.github.io/images/position-relative.png" alt="css positions">
+        
+        <p class="blog1">
+             2) Absolute: applying position: absolute; means you can set the location of an element relative not to its original position but rather relative to the position of its immediate parent element. This parent element also needs to have the relative or absolute positioning applied. If no such parent exists then the document’s <html> element will become the immediate parent for positioning purposes, meaning the html element will be “placed relative to the page itself”. Applying this kind of positioning also removes the element from the existing page flow, meaning the element now more or less exists on it’s own plane - ignoring and being ignored by all other elements on the page and instead placing itself wherever it likes! This picture below demonstrates what I mean: 
+        </p>
+        <img class="b-1-image" src="/Users/emily/Dev-Academy/emily-berryman.github.io/images/position-absolute.png" alt="css positions">
+        
+        <p class="blog1">
+               3)  Fixed: an element with a fixed position means just that the element’s position is quite literally fixed to a certain location relative to the browser window / view port. Since the viewport doesn’t change when we scroll down a page a fixed element will remain in place no matter how much we scroll up and down the page! This kind of positioning is handy for positioning elements such as navigation bars since it’s often good practise to keep the menu visible as that way the viewer can always find their way around your site, no matter how deep down your page they are! 
+        </p>
+    </div>
+    </body>
+         
+            
+        
+
+
+</html>
+  
