@@ -5,17 +5,58 @@
     
 }
 
-ul {
+p {
+    text-transform: none;
+    font-family: 'Obitron Regular', sans-serif;
+}
+
+.dis {
+    font-family: 'Obitron Medium', sans-serif;
+    text-transform: none;
+}
+
+.Homepage-Nav {
     list-style-type: none;
     float: right;
     position: relative;
     z-index: 1000;
    }
 
+a {
+    color: #1601ed;
+}
+
+.b-1-image {
+    width: 50%;
+    margin-left: 25%;
+}
+
 li {
     display: inline;
-    margin: 1em;
-    
+    margin: 1em;   
+  }
+
+  .blog1-bar {
+      
+    list-style-type: none;
+    float: none;
+    position: relative;
+    z-index: 1000;
+  }
+
+.blog1 {
+    text-transform: none;
+    font-family: 'Obitron Regular', sans-serif;
+}
+
+  .body-styling {
+      width: 80%;
+      height: auto;
+      text-justify: unset;
+      margin: auto;
+      text-align: justify;
+      position: relative;
+      margin-top: 5%;
   }
 
 
