@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>HTML Template</title>
+        <link href="/styles/main.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <ul class="Blog1-bar">
+            <li> <a href="https://emily-berryman.github.io/">Home</a></li>
+        </ul>
+    <div class="body-styling">
+    <h1>Technical Blog</h1>
+
+    <h3>HTML & CSS analogy:</h3>
+    
+    <p>To understand the difference between HTML & CSS and their relationship to each other we can use the classic ‘house’ analogy. HTML dictates content & structure, so if were to build a house we’d use html to create the structure and layout of our house as well as all of the physical ‘things’ that exist within our house - i.e beds, furniture, appliances etc. Once we’ve created our house’s structure & filled it with ‘things’ we then can then use ‘CSS’ to modify the style of our house and make a whole lot of design decisions like choosing where to place and arrange all of our things and what colour to paint each of our walls.  </p>
+
+    <h3>Control Flow & Loops analogy: </h3>
+
+    <p> We can understand control flow as the order in which code is executed - usually the control flow is run in order from the first line in a file to the last line, unless the order of the control flow is changed by another structure such as a loop! In JavaScript loops are used to run through a block of code a number of times and we can specify how many times the loop should loop based on whether certain conditions are true or not.   </p>
+    <p>To understand control flow & loops further let’s imagine we’re working as a barista in a cafe & have 4 coffee orders. There are many components & steps involved in making coffee and a specific order needs to be followed depending on what type of coffee we’re making and how many orders we have. If we were to follow the same control flow every time this wouldn’t work as that would be like saying every time you get a coffee order do all the things involved in making any kind of coffee - i.e grind beans, pour shot, pour extra shot, pour milk, steam milk, add chocolate, pour milk into cup, add cinnamon, add take away cup etc etc. Even if we had all of these steps laid out in an order that ‘makes sense’ following the same control flow for every coffee each time wouldn’t work as for instance not all people like milk or chocolate in their coffee and some people might be after a takeaway. So if we want to be able to make different types of coffee efficiently & reliably we have to be able to change our default control flow - which is where loops come in handy.  Say we got an order for three coffee’s - two flat whites and one long black we could make this order by adding a bunch of different loops into our control flow which would allow us to change the order in which we do things, set different quantities of things, and do more than one thing at the same time. For example, the first loop we might add into our control flow could be a for/while loop that says do: pour milk into jug & get correct sized cups ready // while: grinding coffee beans, then once this loop is finished we would start the next loop in our control flow which might say do: pour two coffee shots // while: steaming enough milk for two coffees.  </p>
+   
+    
+<h3>What is the DOM & how do you interact with it? </h3>
+
+<p>The Document Object Model aka the DOM represents how HTML documents are read by the browser, and is a data representation of the objects that make up the structure and content of an html document.  As you can see below the DOM consists of a hierarchy of nodes  (the generic name for any type of DOM objects) which form a family-tree like structure where each node can have a parent, a list of children, siblings and depending on how far down the tree you get often grandparents & great-great grandparents. The initial node in the DOM (which we can think of as the original ancestor) is the ‘window object’ which represents an open window in a browser. The reason the DOM is so important is because it allows us to use a scripting language like JavaScript to access and manipulate any element which is represented within the DOM which in other words means any element within the document including the document as a whole, the head area etc. So for instance, say we wanted a certain button on our page to turn orange when clicked, we could write a javascript script which targets that specific button as represented in the DOM and add an ‘event listener’ to the button that specifies when ‘clicked’ change colour.   </p>
+
+<img src="/images/dom.png" alt="the html DOM">
+
+<h3>Difference between accessing data from arrays vs objects  </h3>
+
+<p>An array is a special type of variable which can hold more than one value at a time under the same name. For instance, if you wanted you could make an array to store all of the potential names you might call your new dog, and it would look something like this:  </p>
+<p>var my_dog = [“mervyn”, “echo”, “elmo”];</p>
+<p>You can then access one of the values (names) contained in your array by referring to it’s index number. Since array’s use zero-based indexing, if we decided on the name elmo then we’d access elmo like this: my_dog[2]</p>
+<p>
+    JavaScript objects are another special type of variable which can contain values stored in name:value pairs and are useful for storing data in a structured way, which can represent real world objects, like a dog as shown below:</p>
+<p>var dog = {name: “Murphy”, legs: 3,  tails: 1};</p>
+<p>
+    These name:value pairs are called properties, and we can access data stored within an object by referencing the object name followed by the property name with a dot or bracket as shown below: </p>
+<p>
+    dog.Name; OR dog[“name”]; - both of these would return the name Murphy 
+    </p>
+<h3>What are functions & why are they useful?</h3>
+<p>
+    A function is a block of code written to perform a certain task. Functions are useful as they’re written to be reusable, meaning you can use the same block of code many times by ‘calling’ it and passing it different arguments to produce different results. </p>
+    </div>
+    </body>
+</html>
