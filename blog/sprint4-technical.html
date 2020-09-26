@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>HTML Template</title>
+        <link href="/styles/main.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <ul class="Blog1-bar">
+            <li> <a href="https://emily-berryman.github.io/">Home</a></li>
+        </ul>
+    <div class="body-styling">
+    <h1>Technical Blog 4</h1>
+
+    <h3>1) Getting blocked on a simple problem:</h3>
+
+    <p>
+        Getting stuck on simple problems has definitely been a reoccuring theme throughout this week's Sprint. 
+        
+        In particular, a challenge called <em>SuperFizzBuzz</em> had me totally stuck near the beginning. The challenge of SuperFizzBuzz is to write a program that when given an array of unknown numbers will return the same array of numbers, except that numbers which are multiples of three will be replaced by the word <em>Fizz</em>, numbers which are multiples of five will be replaced by the word <em>Buzz</em> and numbers that are multiples of fifteen will be replaced by the word <em>SuperFizzBuzz</em>. While the challenge itself was far from a simple problem, the way the challenge was structured as a series of katas meant that it had to pass a series of small tests before eventually the whole challenge was solved. I managed to pass the first test fine, but when it came to the second test - which stated that when passed an empty array the program/function I'd written should return an empty array my function failed. This absolutely stumped me as I couldn't see why my function wasn't returning an empty array when it was returning an array (as per the first test). 
+    </p>
+    <p>
+        So, my next step was to dive deeper into problem solving mode and try some different techniques and processes to try and pass this simple test. First, I tried changing the syntax of my function and added an additional statement in which I tried to say if the array passed into the function contained values greater than zero return the array && if the array contained values which were less than zero also return the array. This approach didn't work, so I moved onto the next technique, which was to turn to Google and research any possible explanations and/or solutions. I didn't have much luck with this approach either which led me to think as long as I'd specified that my function should return an array I shouldn't have to add any extra statement to make sure my function returns any array regardless of whether it's empty or not. At this point I was getting pretty frustrated as I didn't seem to be any closer to figuring out what was going on and wasn't sure of what my next step should be. I returned to the challenge and tried to really study what the error messages I was receiving were saying. These said that the expected result was [], and what was being returned instead was <em>undefined</em>. In hindsight, this should have been a clear signal to me that I needed to declare and define an empty array variable outside of my function with the same name as the array argument I was passing into the function, but at the time I didn't click this was what the issue was so moved onto my next problem solving technique - which was to talk through the problem with a friend. My friend's advice was that rather than getting caught up on this small error, I should take a step back and look at the main problem I was trying to solve, break this down into steps, test the steps as I go and then come back to the Kata's. I tried this approach with the guidance of my friend and was able to solve the entire <em>SuperFizzBuzz</em> challenge and pass all of the individual kata tests. 
+    </p>
+        
+    <p> 
+        In hindsight, next time I'd remember when I'm stuck on a simple problem it's really important to really understand what any error messages point towards, and also use the dev tools console to test what result I'm actually getting and how this differs from the result I'm expecting, as once I'm clear on this info it's easier from there to research and explore possible solutions. 
+    </p>
+
+    <h3>2) Solving problems in an elegant way:</h3>
+
+    <p>
+        To be honest I'm not sure I'd say I did solve a problem in an elegant way during this last Sprint. Through practise approaching problems, writing pseudocode, and trying solutions and then comparing my solutions with the sample solutions I feel I've learnt a lot about how I might go about solving problems in an elegant way, but wouldn't say I've yet done this myself from start to finish. </p>
+
+    <h3>3) Reflection on different problem solving techniques & processes:</h3>
+
+    <p>
+        <b>Pseudocode:</b> I definitely made use of pseudocode throughout this Sprint and it really helped as a way of ensuring I understood what the challenge was asking me to do by first re-wording the challenge and then breaking it down into smaller steps. I still feel that my pseudocoe step-writing process needs more work / practise.  
+    </p>    
+    
+    <p>
+        <b>Trying something:</b> I certainly 'tried something' a lot throughout these challenges, however I often found that just 'trying something' straight away after reading the question was not the best approach. Generally, I found I needed to go through a lot of steps (including writing out the pseudocode, possibly Googling etc) before I was ready to 'try something' as by this stage I'd already taken steps to thing through the problem and what elements were possibly involved, so when I then went to 'try something' there was a much greater chance of this thing working.
+    </p>
+
+    <p>
+        <b>Rubber ducky method:</b> I don't think I tried this method or equvialent this Sprint however I have found this method helpful during previous Sprints. I haven't tried explaining or talking through a problem to a literal rubber duck, but have definitely tried this approach with my peers and mentor and it has really helped to illuminate exactly where I'm stuck, or in some cases helped me to find a solution just by talking through the problem. I'd like to try this process more as I think it can be a really helpful tool. 
+    </p>
+    
+    <p>
+        <b>Reading error messages:</b> I'm definitely utilizing error messages a lot more and feel fairly confident using these as a problem solving tool, but know I could possibly use these more. 
+    </p>
+
+    <p>
+        <b>Console.logging:</b>I use conosle.logging as much as possible when approaching problems. At first I didn't always understand why my console.log(thing) didn't always produce a result in the console, but I think I'm now a lot clearer on how to console.log. 
+    </p>
+    
+    <p>
+        <b>Googling:</b> Google is definitely my bff when it comes to solving problems, however at this stage I don't think I'm always 100% on the best search terms / ways of phrasing what I'm after in order to most efficiently get the info I need so I think there's definitely room for improvement with this problem solving tool.
+    </p>
+
+    <p>
+        <b>Asking your Peers for Help:</b> I've reached out to my peers quite a bit throughout this sprint and tend to do this most in-person when we're working in the DEV space together. This has been really helpful and it's also nice & reassuring to know that often the things I find challenging, they do too, and it can be a lot less daunting to try and talk through / work through an aspect of a problem together.
+    </p>
+    <p>
+        <b>Asking coaches for help:</b> I don't often ask my coach Kelly for help outside of our weekly meeting times, but find these times super helpful as I think I'm definitely someone who learns a lot from talking things out, asking questions etc and so it's great to be able to go clarify my understanding of different concepts and approaches with Kelly who definitely explains things in a way that's easy to understand. 
+    </p>
+
+    <p>
+        <b>Improving your process with reflection</b> I don't think I've spent much time trying to improve my process with reflection, but have spent a bit of time trying to improve my understanding with reflection (which I think is related), and found this incredibly helpful as a way of solidfying my understanding of a problem and the steps and logic involved in writing the solution. This reflection also helped me to identify areas that I'm not 100% on. I definitely think it would be beneficial to try and further improve my process through more reflection on this. 
+    </p>
+
+
+    
+
+
+    
+
+        
+       
+    
+    
+    
+    </div>
+    </body>
+</html>
